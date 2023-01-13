@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.top-right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.top-right ul li{
+    margin-inline: 15px;
+}
