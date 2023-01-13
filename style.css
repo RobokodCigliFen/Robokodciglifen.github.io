@@ -4,6 +4,11 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+img{
+    width: 250px;
+    height: 250px
+}
 body{
     background-color: dimgray;
     color: white;
@@ -31,15 +36,18 @@ body{
 .page-content{
         
     border-radius: 10px;
-    background-color: darkgrey;
     display: flex;
     flex-direction: column;
     align-items: center;        
 }
 .about{
     background-color: rgb(148, 143, 143);
-    height: 600px;
-    width:  75vw;
-    margin: 15px;
-        
+    height: 450px;
+    width:  100vw;        
+}
+.team-members{
+    width: 100vw;
+    background-color: rgb(115, 115, 243);
+    padding-block: 40px;
+    font-size: 1.15rem;
 }
