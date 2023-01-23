@@ -1,42 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robokod Çiğli Fen</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="top">
-        <div class="top-left">
-            <!-- <img src="" alt=""> -->
-            Robokod Çiğli Fen
-        </div>
-        <div class="top-right">
-            <ul>
-                <li>İletişim</li>
-                <li>Takım Üyeleri</li>
-                <li>Hakkında</li>
-            </ul>
-        </div>
-    </div>
-    <div class="page-content">
-        <div class="about">
-            <div class="about-text"></div>
-            <div class="about-image"></div>
-        </div>
-        <div class="team-members">
-            <div class="member-even">
-                <img src="" alt="">
-                <div class="member-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam impedit pariatur reiciendis dicta, quo a cupiditate? Autem maxime tempora consequuntur.</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Robokod Çiğli Fen</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="robokodLogo.png" type="image/x-icon" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <nav class="nav-bar-wrapper">
+            <nav id="nav" class="nav-bar">
+                <a href="#nav" class="logo"
+                    ><img style="width: 3em" src="robokodLogo.png" alt="" />
+                    Robokod Çiğli Fen</a
+                >
+                <div class="nav-links">
+                    <div class="about"><a href="#about">Hakkımızda</a></div>
+                    <div class="members"><a href="#members">Takımımız</a></div>
+                    <div class="contact"><a href="#contact">İletişim</a></div>
+                </div>
+            </nav>
+        </nav>
+        <section class="hero">
+            <p>Çiğli Fen Lisesi</p>
+            <p>First Lego League Takımı</p>
+        </section>
+        <img
+            class="hero-image"
+            src="https://assets-global.website-files.com/62ab0d6ce96d28cc9c7dfea8/62ab0d6ce96d285b127e0063_wave-bottom.svg"
+            alt=""
+        />
+        <section id="about" class="about-section-wrapper">
+            <div class="about-section">
+                <p>
+                    -Robokod Çiğli Fen takımımız 2019'dan bugüne çalışmalarını
+                    sürdürmektedir. Ekibimiz 10 kişiden oluşmakta ve hepimiz
+                    Çiğli Fen Lisesi'nde öğrenim görmekteyiz. Okulumuz,
+                    öğrencilerine projeler ve yarışmalara katılma konusunda
+                    oldukça destekleyici. Bu yarışmalardan biri de First Lego
+                    League. Bu yarışmada öğrenciler, yarışmaya hazırlık
+                    sürecinde takım olarak çalışıyor, robotların yapımından
+                    programlamaya kadar her konuda bilgi ve beceri ediniyorlar.
+                    Yarışma, öğrencilerin problem çözme yeteneklerini, takım
+                    çalışmasını, ve yaratıcı düşünme becerilerini geliştirmesine
+                    olanak tanıyor. Robokod Çiğli Fen takımı olarak yarışmada
+                    yer alacağız. Bu yarışma sürecinde eğlenmeyi de unutmayarak
+                    başarılı olmak için elimizden geleni yapacağız ve en iyisini
+                    ortaya koyacağız!
+                </p>
+                <img src="topluFoto.jpg" />
             </div>
-            <div class="member-odd"><div class="member-text">
-                
+        </section>
+        <svg
+            width="100%"
+            height="100%"
+            id="svg"
+            viewBox="0 0 1440 400"
+            xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150"
+        >
+            <path
+                d="M 0,400 C 0,400 0,133 0,133 C 111.57894736842107,105.73684210526315 223.15789473684214,78.47368421052632 316,94 C 408.84210526315786,109.52631578947368 482.9473684210526,167.8421052631579 576,183 C 669.0526315789474,198.1578947368421 781.0526315789475,170.1578947368421 890,148 C 998.9473684210525,125.84210526315789 1104.8421052631577,109.52631578947368 1196,108 C 1287.1578947368423,106.47368421052632 1363.5789473684213,119.73684210526315 1440,133 C 1440,133 1440,400 1440,400 Z"
+                stroke="none"
+                stroke-width="0"
+                fill="#e6d4b6"
+                fill-opacity="0.53"
+                class="transition-all duration-300 ease-in-out delay-150 path-0"
+            ></path>
+            <path
+                d="M 0,400 C 0,400 0,266 0,266 C 77.94258373205744,296.82296650717706 155.8851674641149,327.64593301435406 243,313 C 330.1148325358851,298.35406698564594 426.4019138755981,238.2392344497608 523,237 C 619.5980861244019,235.7607655502392 716.5071770334928,293.39712918660285 835,306 C 953.4928229665072,318.60287081339715 1093.569377990431,286.17224880382776 1198,272 C 1302.430622009569,257.82775119617224 1371.2153110047846,261.9138755980861 1440,266 C 1440,266 1440,400 1440,400 Z"
+                stroke="none"
+                stroke-width="0"
+                fill="#e6d4b6"
+                fill-opacity="1"
+                class="transition-all duration-300 ease-in-out delay-150 path-1"
+            ></path>
+        </svg>
+        <section id="members" class="members-section-wrapper">
+            <div class="members-section">
+                <h1>Takım Üyeleri</h1>
+                <div class="member-list">
+                    <div class="left-list">
+                        <div class="member">
+                            <h2>Ela Zeynep Ersoy</h2>
+                            <p>
+                                -Takım kaptanı, art arda 3 kere FLL'ye katılan
+                                tutkulu bir genç.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Öyküsu Karakulak</h2>
+                            <p>
+                                -Gece gündüz robotumuzla ilgilenen, robotu
+                                koynunda büyüten "piremses". Halk arasında
+                                "Öyküsüsü" olarak da bilinir.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Bilal Varol</h2>
+                            <p>
+                                -Bateristçi olan "Bilıl" yaşam enerjisini mavi
+                                beresinden ve kulaklığından alır, her zaman şaka
+                                yapar ve bizi güldürür.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Saliha Hilal Dirik</h2>
+                            <p>
+                                -Önemli bir projecimiz olan Hilal, gece gündüz
+                                demeden tasarım yapar.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Yağız Efe Anık</h2>
+                            <p>
+                                -Çok mert olan bir delikanlı; robot, yazılım ve
+                                bilgisayar uzmanı. Ayrıca teknolojik bir deha.
+                            </p>
+                        </div>
+                    </div>
+                    <img src="takimUyeleri.jpg" alt="" />
+                    <div class="right-list">
+                        <div class="member">
+                            <h2>Hazal Bul</h2>
+                            <p>
+                                -Mukavvalarla aşırı ilgili, boş zamanlarında
+                                mukavvalarla konuştuğu iddia ediliyor.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Rana Yavuz</h2>
+                            <p>
+                                -Robotik sınıfında bile dakikada 300 şınav
+                                çekiyor, içinde indüksiyon motoru olabileceği
+                                düşünülüyor.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Asu Sena Alcan</h2>
+                            <p>
+                                -Proje ve Valorant aşığı, sabah akşam demeden
+                                proje yapıp Valorant oynar.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Muhammet Murat Torun</h2>
+                            <p>
+                                -7 gün 24 saat sürekli web sitesi yapar ve kod
+                                yazar, halk arasında "Developer Murat" olarak da
+                                bilinir.
+                            </p>
+                        </div>
+                        <div class="member">
+                            <h2>Nihat Sarp Bilge</h2>
+                            <p>
+                                -Aşırı derecede yakışıklı, zeki, komik ve
+                                sempatik; çiçeği burnunda bir gencimizdir.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="" alt="">
-        </div>
-        </div>
-    </div>
-</body>
+        </section>
+        <svg
+            width="100%"
+            height="100%"
+            id="svg"
+            viewBox="0 0 1440 390"
+            xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150"
+        >
+            <path
+                d="M 0,400 C 0,400 0,133 0,133 C 79.26279628993476,107.68430092751632 158.5255925798695,82.36860185503262 219,101 C 279.4744074201305,119.63139814496738 321.1604259704568,182.2098935073858 398,175 C 474.8395740295432,167.7901064926142 586.832703538303,90.79182411542425 654,90 C 721.167296461697,89.20817588457575 743.508759876331,164.62281003091724 811,168 C 878.491240123669,171.37718996908276 991.1322569563724,102.71693576090688 1063,94 C 1134.8677430436276,85.28306423909312 1165.9622122981793,136.5094469254552 1222,153 C 1278.0377877018207,169.4905530745448 1359.0188938509104,151.2452765372724 1440,133 C 1440,133 1440,400 1440,400 Z"
+                stroke="none"
+                stroke-width="0"
+                fill="#e6d4b6"
+                fill-opacity="0.53"
+                class="transition-all duration-300 ease-in-out delay-150 path-0"
+                transform="rotate(-180 720 200)"
+            ></path>
+            <path
+                d="M 0,400 C 0,400 0,266 0,266 C 81.43524562006183,255.11439367914804 162.87049124012367,244.22878735829607 239,258 C 315.12950875987633,271.7712126417039 385.9532806595672,310.1992442459636 439,310 C 492.0467193404328,309.8007557540364 527.3163861216077,270.9742356578495 599,248 C 670.6836138783923,225.0257643421505 778.7811748540022,217.90381312263827 846,234 C 913.2188251459978,250.09618687736173 939.5589144623841,289.4105118515974 1006,302 C 1072.441085537616,314.5894881484026 1178.9831672964617,300.45413947097217 1258,290 C 1337.0168327035383,279.54586052902783 1388.508416351769,272.7729302645139 1440,266 C 1440,266 1440,400 1440,400 Z"
+                stroke="none"
+                stroke-width="0"
+                fill="#e6d4b6"
+                fill-opacity="1"
+                class="transition-all duration-300 ease-in-out delay-150 path-1"
+                transform="rotate(-180 720 200)"
+            ></path>
+        </svg>
+        <section id="contact" class="contact-section-wrapper">
+            <div class="contact-section">
+                <h1>Bize Ulaşın</h1>
+
+                <li>
+                    <a
+                        href="https://www.instagram.com/robokodciglifen/"
+                        target="_blank"
+                        >instagram.com/robokodciglifen</a
+                    >
+                </li>
+                <li>
+                    <a href="mailto:robokodciglifen@hotmail.com"
+                        >robokodciglifen@hotmail.com</a
+                    >
+                </li>
+            </div>
+        </section>
+        <footer>
+            <p>
+                Copyright &copy; 2023 by
+                <a target="_blank" href="https://github.com/murTorun"
+                    >murTorun</a
+                >
+            </p>
+        </footer>
+    </body>
 </html>
